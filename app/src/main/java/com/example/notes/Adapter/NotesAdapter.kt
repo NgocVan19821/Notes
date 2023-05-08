@@ -30,7 +30,6 @@ class NotesAdapter(
         )
     }
 
-
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         val currentNote = NotesList[position]
         holder.itemView.title.text = currentNote.title
