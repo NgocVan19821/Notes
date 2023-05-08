@@ -20,6 +20,7 @@ class NotesAdapter(
     private val NotesList =  ArrayList<Note>()
     private val fullList =  ArrayList<Note>()
 
+
     class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
